@@ -32,6 +32,7 @@ $tabPeople = $csv->setOffset(1)->setLimit()->fetchAll();
 						<div class="meta">
 							<a><?= $person[2]; ?></a>
 						</div>
+						<div class="description"><?= $person[3]; ?></div>
 					</div>
 				</div>
 			</div>
