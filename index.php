@@ -27,6 +27,9 @@ $tabPeople = $csv->setOffset(1)->setLimit()->fetchAll();
 					<div class="image">
 						<img src="<?= $person[5]; ?>" alt="person">
 					</div>
+					<div>
+						<div class="header"><?= $person[0]; ?></div>
+					</div>
 				</div>
 			</div>
 
