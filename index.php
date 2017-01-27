@@ -34,6 +34,9 @@ $tabPeople = $csv->setOffset(1)->setLimit()->fetchAll();
 						</div>
 						<div class="description"><?= $person[3]; ?></div>
 					</div>
+					<div class="extra content">
+						<span class="right floated">Born in <?= $person[1]; ?></span>
+					</div>
 				</div>
 			</div>
 
