@@ -1,0 +1,9 @@
+.person {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.container {
+	margin-right: 15em;
+	margin-left: 15em;
+}
